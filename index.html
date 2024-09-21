@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suvam's Drag and Drop Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="suvam">SUVAM MOHAPATRA</h1>
+    <div class="container">
+      <!-- Left Box containing all draggable list items -->
+      <div id="left" tabindex="0">
+        <div class="list" draggable="true" tabindex="0">
+          <img src="icon.png" alt="Icon" />
+          List Item 1
+        </div>
+        <div class="list" draggable="true" tabindex="0">
+          <img src="icon.png" alt="Icon" />
+          List Item 2
+        </div>
+        <div class="list" draggable="true" tabindex="0">
+          <img src="icon.png" alt="Icon" />
+          List Item 3
+        </div>
+        <div class="list" draggable="true" tabindex="0">
+          <img src="icon.png" alt="Icon" />
+          List Item 4
+        </div>
+      </div>
+      <!-- Right box where items can be dropped -->
+      <div id="right" tabindex="0"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
